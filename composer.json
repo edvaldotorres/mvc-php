@@ -1,0 +1,28 @@
+{
+    "name": "edvaldotorres/mvc-php",
+    "description": "The project follows an MVC structure using composer and some components for better performance and architecture.",
+    "license": "MIT",
+    "type": "project",
+    "authors": [{
+        "name": "Edvaldo Torres",
+        "email": "edvaldodev@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-pdo": "*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+}
