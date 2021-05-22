@@ -1,6 +1,6 @@
 <?php
 
-define("ROOT", "http://localhost/mvc-php/");
+define("ROOT", "http://localhost/mvc-php");
 
 define("SITE", "#mvcPHP");
 
